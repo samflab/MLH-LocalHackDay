@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Coursify</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/s1.css">
+    <link rel="stylesheet" href="css/navbar1.css">
+    <link rel="stylesheet" href="css/card.css">
+</head>
+
+
+<body style="background-image: url('img/bg.png');">
+
+<!--NAVBAR-->
+
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <div class="navbar-header">
+
+      <a class="navbar-brand" href="home.php"><img src="img/logo.png" height="50" width="200"></a>
+        <button type="button" class="navbar-toggle ml-auto" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="fa fa-bars fa-2x" aria-hidden="true"></i></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="nav navbar-nav navbar-right">
+         <li class="nav-item active"><a class="nav-link" href="#">Live Classes</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Video Library</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Course</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Book</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Board</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Exam</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--NAVBAR END-->
+
+
+<!--HEADER-->
+    <div class="row">
+    <div id="desc_whole">
+            <div class="col-lg-5 col-md-5 col-sm-5" id="desc">
+                <p id="heading">Clarify your <h id="highlight">doubts</h> in your <h id="highlight">regional</h> language.</p>
+                <button class="btn"><i style=" color: white;" class="fas fa-arrow-alt-circle-down"></i> Ask your doubt now </button> 
+                </div>
+                <br>
+            <div class="col-lg-6 col-md-6 col-sm-6" id="illustration_one">
+              <a data-toggle="modal" data-target="#video">
+                <img src="img/video.png" class="img-responsive" height="300" width="600" style="float: right; padding-left: 5%;">
+              </a>
+            </div>
+    </div>
+  </div>
+<!-- HEADER END-->
+
+<!--VIDEO MODAL-->
+<div class="modal fade" id="video" role="dialog" tabindex="-1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-body">
+        <video width="400" controls>
+          <source src="https://www.youtube.com/watch?v=HDsHap_3bhk" type="video/mp4">
+          Your browser does not support HTML video.
+        </video>
+          
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!--VIDEO MODAL END-->
+
+<!--DOUBTS CLASSES -->
+  <div class="row">
+    <div id="desc_whole">
+            <div class="col-lg-5 col-md-5 col-sm-5" id="text">
+                  <p id="heading">Solve your doubts <h id="highlight">faster </h></p>
+                   <br>
+                   <p id="sub-heading1"> <img src="img/world.svg" height="30" width="30"> &nbsp; Accessible everywhere</p>
+                  <p id="lines1">Access to quality education anytime, anywhere.</p>
+                <br>
+                <p id="sub-heading1"><img src="img/youtube.svg" height="30" width="30"> &nbsp; 1 million+ videos</p>
+                <p id="lines1">Unlimited access to video solutions</p>
+                <br>
+                  <button class="btn"><i style=" color: white;" class="fas fa-arrow-alt-circle-down"></i> Post your doubt </button> 
+                
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6" id="desc" style="float: right; padding-left: 5%;">
+                <img src="img/doubts.png" class="img-responsive" height="300" width="700">
+            </div>
+    </div>
+  </div>
+<!--DOUBTS CLASSES END-->
+
+<!-- LIVE CLASSES-->
+    <div class="row">
+    <div id="desc_whole">
+        <div class="col-lg-6 col-md-6 col-sm-6" id="talk_img">
+                <img src="img/liveclasses.svg" class="img-responsive" height="300" width="700">
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-5" id="text" style="float: right;">
+                <p id="heading" style="float: right;"><h id="highlight">LIVE</h> Classes</p>
+                <br>
+                <p id="sub-heading1" style="float: right;"> <img src="img/world.svg" height="30" width="30"> &nbsp; Accessible everywhere</p>
+                <p id="lines1" style="float: right;">Access to quality education anytime, anywhere.</p>
+                <br>
+                <p id="sub-heading1" style="float: right;"><img src="img/teacher.svg" height="35" width="35"> &nbsp; Expert Teachers</p>
+                <p id="lines1" style="float: right;">Unlimited access to video lectures and more!</p>
+                <br>
+                <p id="sub-heading1" style="float: right;"><img src="img/youtube.svg" height="30" width="30"> &nbsp; Interactive Sessions</p>
+                <p id="lines1" style="float: right;">Small groups for maximum student-teacher interaction.</p>
+                
+                  <button class="btn" style="float: right;">Book a class now </button>
+                 
+            </div>
+           
+    </div>
+  </div>
+  <br>
+  <br>
+<!--LIVE CLASSES END-->
+
+<!--START LEARNING-->
+    <div class="row">
+    <div id="desc_whole">
+            <div class="col-lg-5 col-md-5 col-sm-5" id="text">
+                  <p id="heading">Start learning with <h id="highlight">Coursify </h></p>
+                   <br>
+                  <p>Get the access to structured courses and doubt clearing sessions.</p>
+                <br>
+                  <button class="btn"><i style=" color: white;" class="fas fa-arrow-alt-circle-down"></i> Start learning </button> 
+                
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6" id="desc" style="padding-left: 5%;">
+              <div class="column">
+              <div class="card card-1" style="background-image: url(img/question.svg);">
+                <h3>40,000+</h3>
+                <p>Doubts cleared</p>
+                
+              </div>
+              </div>
+<br>
+              <div class="column">
+                <div class="card card-1" style="background-image: url(img/enterprise.svg);">
+                  <h3>20+</h3>
+                  <p>State Boards</p>
+                </div>
+                </div>
+<br>
+
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6" id="desc" style="padding-left: 5%;">
+              <div class="column">
+                <div class="card card-1" style="background-image: url(img/elearning.svg);">
+                  <h3>1,000,000+</h3>
+                  <p>Video Lectures</p>
+                </div>
+                </div>
+<br>
+                <div class="column">
+                  <div class="card card-1" style="background-image: url(img/book.svg);">
+                    <h3>5000+</h3>
+                    <p>Books covered</p>
+                  </div>
+                  </div>        
+            </div>
+    </div>
+  </div>
+<br>
+<br>
+<br>
+<!--START LEARNING END-->
+
+<!--HOW IT WORKS-->
+
+<div class="row">
+  <div class="row">
+          <div>
+            <b><p id="heading" style="text-align: center; display: block;">How it works?</p></b>
+          </div>
+          <br>
+          <br>
+          <div class="col-lg-4 col-md-3 col-sm-1" id="illustration_one"> 
+            <p style="text-align: center;">
+           <img src="img/ques.svg" height="300" width="300"> &nbsp;  &nbsp; <img src="img/right-arrow.svg" height="30" width="30">
+           </p>
+           <p id="lines1" style="text-align: center;">Have a doubt?</p>
+          
+          </div>
+          
+          <div class="col-lg-4 col-md-3 col-sm-1" id="illustration_one"> 
+            <p style="text-align: center;">
+            <img src="img/doubt.svg" height="300" width="300">  &nbsp;  &nbsp; <img src="img/right-arrow.svg" height="30" width="30">
+            </p>
+            <p id="lines1" style="text-align: center;">Type a question <br>OR <br>upload an image</p>
+            
+           </div>
+           
+           <div class="col-lg-4 col-md-3 col-sm-1" id="illustration_one"> &nbsp; 
+            <p style="text-align: center;">
+            <img src="img/solution.svg" height="300" width="300"> 
+            </p>
+            <p id="lines1" style="text-align: center;">Get your solution!</p>
+           </div>
+          
+  </div>
+</div>
+<!--HOW IT WORKS END-->
+
+
+</body>
+</html>
